@@ -23,7 +23,7 @@ user_name = browser.find_element_by_xpath("//input[@id='username']")
 user_name.send_keys("admin")
 
 pass_word = browser.find_element_by_xpath("//input[@id='password']")
-pass_word.send_keys("")
+pass_word.send_keys("") # This must be added before running
 
 browser.find_element_by_xpath("//input[@value='Login']").click()
 
